@@ -140,4 +140,11 @@ window.onload = () => {
 
     let viewporter = document.querySelector(".viewporter");
     console.log(viewporter, window.devicePixelRatio, window.innerWidth, window.innerHeight);
+    console.log(viewporter.content);
+    // viewporter.content = `width=device-width, initial-scale= ${ 1 / (window.devicePixelRatio || 1) }`;
+    viewporter.setAttribute("content", `width=device-width, initial-scale= ${ 1 / (window.devicePixelRatio || 1) }`);
+    let htmler = document.querySelector(".htmler");
+    // htmler.style.width = window.innerWidth;
+    // htmler.style.height = window.innerHeight;
+    // console.log(htmler.style.width);
 };

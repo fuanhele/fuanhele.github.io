@@ -123,12 +123,12 @@ table {
 }
 html,
 body {
+  min-width: 814px;
   height: 100%;
   font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft YaHei", "微软雅黑", sans-serif;
 }
 .contenter {
   width: 100%;
-  min-width: 814px;
   height: 100%;
   position: relative;
 }
