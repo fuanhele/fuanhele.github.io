@@ -136,4 +136,8 @@ window.onload = () => {
             });
         });
     })();
+
+
+    let viewporter = document.querySelector(".viewporter");
+    console.log(viewporter, window.devicePixelRatio, window.innerWidth, window.innerHeight);
 };
